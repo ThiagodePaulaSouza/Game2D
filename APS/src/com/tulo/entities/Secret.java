@@ -9,7 +9,7 @@ public class Secret extends Entity{
 	private int framesAnimationR = 0;
 	private int maxFramesR = 15;
 	private int curSpriteR = 0;
-	private int maxSpriteR = 3;
+	private int maxSpriteR = 2;
 
 	//Metodo com variaveis de coordenadas, altura, largura, velocidade e sprite importando da classe Entity
 	public Secret(double x, double y, int width, int height, double speed, BufferedImage sprite) {

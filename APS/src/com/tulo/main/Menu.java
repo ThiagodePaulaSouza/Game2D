@@ -59,11 +59,11 @@ public class Menu {
 		g.setColor(new Color(30,88,66)); //cor do fundo
 		g.fillRect(0, 0, Game.WIDTH*Game.SCALE, Game.HEIGHT*Game.SCALE);
 		g.drawImage(Backgrounds.BCmenu, -Camera.x, -Camera.y, 720, 480, null);
-		g.setColor(new Color(0,0,0)); //cor da fonte
+		g.setColor(new Color(255,255,255)); //cor da fonte
 		g.drawString("Start", 330, 280);
 		g.drawString("Exit", 337, 350);
-		g.drawImage(player.getScaledInstance(200, 200, 0), 50, 170, null);
-		g.drawImage(inimigo.getScaledInstance(200, 200, 0), 510, 195, null);
+		g.drawImage(player.getScaledInstance(200, 200, 0), 50, 240, null);
+		g.drawImage(inimigo.getScaledInstance(200, 200, 0), 510, 250, null);
 		if(options[currentOptions] == "Start") { g.drawImage(player.getScaledInstance(50, 50, 0), 280, 240, null);
 		}else if(options[currentOptions] == "Exit") { g.drawImage(player.getScaledInstance(50, 50, 0), 286, 310, null);
 		}
