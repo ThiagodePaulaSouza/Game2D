@@ -34,8 +34,7 @@ public class Entity {
 	public static BufferedImage[] PLASTIC = {Game.spritesheet.getSprite(96,32,16,16), Game.spritesheet.getSprite(96,48,16,16), Game.spritesheet.getSprite(96,64,16,16), 
 												Game.spritesheet.getSprite(96,80,16,16), Game.spritesheet.getSprite(96,96,16,16), Game.spritesheet.getSprite(96,32,16,16)};
 	
-	public static BufferedImage[] SECRET = {Game.spritesheet.getSprite(96,32,16,16), Game.spritesheet.getSprite(96,48,16,16), Game.spritesheet.getSprite(96,64,16,16), 
-												Game.spritesheet.getSprite(96,80,16,16), Game.spritesheet.getSprite(96,96,16,16), Game.spritesheet.getSprite(96,32,16,16)};
+	public static BufferedImage[] SECRET = {Game.spritesheet.getSprite(0,0,16,16), Game.spritesheet.getSprite(0,0,16,16)};
 	
 	public static BufferedImage[] BATTERY = {Game.spritesheet.getSprite(108,32,16,16), Game.spritesheet.getSprite(108,48,16,16), Game.spritesheet.getSprite(108,64,16,16), 
 												Game.spritesheet.getSprite(108,80,16,16), Game.spritesheet.getSprite(108,96,16,16), Game.spritesheet.getSprite(108,32,16,16)};
